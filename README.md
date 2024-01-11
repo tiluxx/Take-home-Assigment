@@ -2,11 +2,11 @@
 
 This is my work for the five tasks of the Take-home Assignment including the following contents:
 
-- Task 1: Python Programming
-- Task 2: Data Structures: E-commerce Inventory Schema
-- Task 3: Web Scraping - Real Estate Data
-- Task 4: Nested Set Model Implementation
-- Task 5: Database and SQL - Stored Procedure Creation
+- Task 1 - `Task1`: Python Programming
+- Task 2 - `Task2`: Data Structures: E-commerce Inventory Schema
+- Task 3 - `Task3`: Web Scraping - Real Estate Data
+- Task 4 - `Task4`: Nested Set Model Implementation
+- Task 5 - `Task5`: Database and SQL - Stored Procedure Creation
 
 ## Requirements & Installation
 
@@ -45,7 +45,7 @@ The `database.sql` contains the SQL code to create tables for the E-Commerce Inv
 
 ### Task 3
 
-This program will scrape real estate data from this [website](https://batdongsan.com.vn/). The result is stored in the Exel file `Task3/real_estate_data.xlsx`.
+This program will scrape real estate data from this [website](https://batdongsan.com.vn/). The result is stored in the Excel file `Task3/real_estate_data.xlsx`.
 
 Since the website blocks strange access to scrape the data, this program uses Chrome web driver from [selenium](https://pypi.org/project/selenium/) to stimulate access from a browser. The cache mechanism implemented is [lru_cache](https://docs.python.org/3/library/functools.html) to optimize scraping speed.
 
