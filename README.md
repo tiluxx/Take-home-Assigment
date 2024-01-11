@@ -39,13 +39,13 @@ Expected output:
 
 ### Task 2
 
-The relationships among entities can be found in the image `Task2\ERD_ECommerceInventory.png`. The `Task2\ERD_ECommerce Inventory.vpp` contains the source diagram and can be opened in [visual paradigm](https://www.visual-paradigm.com/download/).
+The relationships among entities can be found in the image `Task2/ERD_ECommerceInventory.png`. The `Task2/ERD_ECommerce Inventory.vpp` contains the source diagram and can be opened in [visual paradigm](https://www.visual-paradigm.com/download/).
 
 The `database.sql` contains the SQL code to create tables for the E-Commerce Inventory System which can be executed in [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16).
 
 ### Task 3
 
-This program will scrape real estate data from this [website](https://batdongsan.com.vn/). The result is stored in the Exel file `Task3\real_estate_data.xlsx`.
+This program will scrape real estate data from this [website](https://batdongsan.com.vn/). The result is stored in the Exel file `Task3/real_estate_data.xlsx`.
 
 Since the website blocks strange access to scrape the data, this program uses Chrome web driver from [selenium](https://pypi.org/project/selenium/) to stimulate access from a browser. The cache mechanism implemented is [lru_cache](https://docs.python.org/3/library/functools.html) to optimize scraping speed.
 
