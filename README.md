@@ -105,5 +105,5 @@ The stored procedure `ManagePosts` can perform the following actions.
 
 These files can be executed in [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16).
 
-Expected output:
+Expected output (for `fetchPostRelatedData` action):
 ![Output of task 5](./sample_images/task5_fetch-post-related-data_output.png)
